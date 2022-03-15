@@ -2,11 +2,13 @@
     "en" : [
             {
             "title" : "test1",
-            "description" : "lorem ipsum"
+            "description" : "lorem ipsum",
+            "img" : "placeholder.png"
             },
             {
             "title" : "test2",
-            "description" : "lorem ipsum"
+            "description" : "lorem ipsum",
+            "img" : "placeholder.png"
             }
         ],
     "fr" : []

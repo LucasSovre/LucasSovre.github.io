@@ -1,7 +1,28 @@
-import react from "react";
+import react, {useEffect} from "react";
 import "../assets/styles/Header.scss"
+import {atom, useRecoilState} from "recoil"
+
+export const langageState = atom({
+    key: 'langageState',
+    default: 'fr',
+});
 
 export default function Header (){
+    
+    const [langage, setLangage] = useRecoilState("en");
+
+    useEffect(() => {
+        console.log(langage)
+        if(langage === "en"){
+            document.getElementById("en").style.backgroundColor = "black";
+            document.getElementById("fr").style.backgroundColor = "white";
+        }
+        if(langage === "fr"){
+            document.getElementById("fr").style.backgroundColor = "black";
+            document.getElementById("en").style.backgroundColor = "white";
+        }
+    },[langage]);
+
     return(
         <div id="HD-main">
             <div id="HD-social">
@@ -17,8 +38,8 @@ export default function Header (){
                 </a>
             </div>
             <div id="HD-langue">
-                <button id="en">en</button>
-                <button id="fr">fr</button>
+                <button onClick={() => {setLangage("en")}} id="en">en</button>
+                <button onClick={() => {setLangage("fr")}} id="fr">fr</button>
             </div>
             <div id="HD-anchor">
                 <a>Projects</a>
