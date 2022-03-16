@@ -14,7 +14,7 @@ export default function Welcome (){
                 </div>
             </div>
             <div id="WL-img">
-                <img src={fakeMe} alt="pic of me smiling" />
+                <img alt="pic of me smiling" />
             </div>
         </div>
     )

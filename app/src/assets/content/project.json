@@ -1,13 +1,27 @@
 {
     "en" : [
             {
-            "title" : "test1",
+            "title" : "Standup-lyon.fr",
+            "description" : "I have created a full standup-comedy information plateform (backend and frontend). With a user system and secured jwt conection provider",
+            "gitLink":"https://github.com/LucasSovre/siteStandup_homadeBackend",
+            "Link":"https://standup-lyon.fr/",
+            "tech" : ["ReactJS", "HTML", "CSS", "Django", "Python", "Nginx", "project"],
+            "img" : "standup-lyon_screenShot.png"
+            },
+            {
+            "title" : "Site web radio beguin",
             "description" : "lorem ipsum",
+            "gitLink":"",
+            "Link":"",
+            "tech" : [],
             "img" : "placeholder.png"
             },
             {
-            "title" : "test2",
+            "title" : "Scrapper web FFR",
             "description" : "lorem ipsum",
+            "gitLink":"",
+            "Link":"",
+            "tech" : [],
             "img" : "placeholder.png"
             }
         ],

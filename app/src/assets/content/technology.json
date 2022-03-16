@@ -1,0 +1,52 @@
+[
+    {   
+        "name" : "React",
+        "url_colored" : "react.svg",
+        "url_black" : "react_black.svg"
+    },
+    {   
+        "name" : "Css",
+        "url_colored" : "css.svg",
+        "url_black" : "css_black.svg"
+    },    
+    {   
+        "name" : "Html",
+        "url_colored" : "html.svg",
+        "url_black" : "html_black.svg"
+    },
+    {   
+        "name" : "JavaScript",
+        "url_colored" : "js.svg",
+        "url_black" : "js_black.svg"
+    },
+    {   
+        "name" : "Django",
+        "url_colored" : "django.svg",
+        "url_black" : "django_black.svg"
+    },
+    {   
+        "name" : "Java",
+        "url_colored" : "java.svg",
+        "url_black" : "java_black.svg"
+    },
+    {   
+        "name" : "Nginx",
+        "url_colored" : "nginx.svg",
+        "url_black" : "nginx_black.svg"
+    },
+    {   
+        "name" : "Postgres",
+        "url_colored" : "postgres.svg",
+        "url_black" : "postgres_black.svg"
+    },
+    {   
+        "name" : "Python",
+        "url_colored" : "python.svg",
+        "url_black" : "python_black.svg"
+    },
+    {   
+        "name" : "Html",
+        "url_colored" : "html.svg",
+        "url_black" : "html_black.svg"
+    }
+]

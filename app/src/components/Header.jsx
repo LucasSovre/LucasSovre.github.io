@@ -9,10 +9,9 @@ export const langageState = atom({
 
 export default function Header (){
     
-    const [langage, setLangage] = useRecoilState("en");
+    const [langage, setLangage] = useRecoilState(langageState);
 
     useEffect(() => {
-        console.log(langage)
         if(langage === "en"){
             document.getElementById("en").style.backgroundColor = "black";
             document.getElementById("fr").style.backgroundColor = "white";
