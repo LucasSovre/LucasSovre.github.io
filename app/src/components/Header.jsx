@@ -1,10 +1,10 @@
 import react, {useEffect} from "react";
 import "../assets/styles/Header.scss"
-import {atom, useRecoilState} from "recoil"
+import {atom, useRecoilState, useRecoilValue} from "recoil"
 
 export const langageState = atom({
     key: 'langageState',
-    default: 'fr',
+    default: 'en',
 });
 
 export default function Header (){
@@ -13,11 +13,11 @@ export default function Header (){
 
     useEffect(() => {
         if(langage === "en"){
-            document.getElementById("en").style.backgroundColor = "black";
+            document.getElementById("en").style.backgroundColor = "#c6c6c6";
             document.getElementById("fr").style.backgroundColor = "white";
         }
         if(langage === "fr"){
-            document.getElementById("fr").style.backgroundColor = "black";
+            document.getElementById("fr").style.backgroundColor = "#c6c6c6";
             document.getElementById("en").style.backgroundColor = "white";
         }
     },[langage]);
@@ -40,11 +40,20 @@ export default function Header (){
                 <button onClick={() => {setLangage("en")}} id="en">en</button>
                 <button onClick={() => {setLangage("fr")}} id="fr">fr</button>
             </div>
-            <div id="HD-anchor">
-                <a>Projects</a>
-                <a>Career</a>
-                <a>Contact</a>
-            </div>
+            {
+                langage === "en" ?
+                <div id="HD-anchor">
+                    <a href="#project-anchor">Projects</a>
+                    <a href="#career-anchor">Career</a>
+                    <a href="#contact-anchor">Contact</a>
+                </div>
+                :
+                <div id="HD-anchor">
+                    <a href="#project-anchor">Projets</a>
+                    <a href="#career-anchor">Carrière</a>
+                    <a href="#contact-anchor">Contact</a>
+                </div>
+            }
         </div>
     )
 }

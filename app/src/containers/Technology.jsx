@@ -8,7 +8,7 @@ export default function Technology(){
     return(
         <div id="TE-main">
             {techno.map((item) =>(
-                <TechItem item={item} />
+                <TechItem item={item} key={item.name + "key"} />
             ))}
         </div>
     )

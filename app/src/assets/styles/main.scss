@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto&display=swap');
 
+$soft-blue : #6ea4df;
+$dark-blue : #004E64;
+$bud-green : #6DA34D;
+
 body{
+    background: #eeeeee;
     margin: 0px;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 
 h1{

@@ -43,10 +43,5 @@
         "name" : "Python",
         "url_colored" : "python.svg",
         "url_black" : "python_black.svg"
-    },
-    {   
-        "name" : "Html",
-        "url_colored" : "html.svg",
-        "url_black" : "html_black.svg"
     }
 ]

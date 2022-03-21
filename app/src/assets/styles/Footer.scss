@@ -1,0 +1,13 @@
+@import "main";
+
+#FO-main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: $dark-blue;
+    color: white;
+
+    a{
+        font-weight: bold;
+    }
+}

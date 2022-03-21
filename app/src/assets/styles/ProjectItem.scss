@@ -1,4 +1,11 @@
+@import "main";
+
+.PI-main-animation {
+    opacity: 100% !important;
+}
+
 .PI-main{
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -7,9 +14,56 @@
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 100px;
+    opacity: 0%;
+    transition: all 3s;
+
+    div{
+        width: 60%;
+    }
 
     img{
-        height: 300px;
+        width: 50%;
         object-fit: cover;
+        max-width: 600px;
+    }
+}
+
+#PI-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    #PI-git{
+        color: black;
+        margin-right: 20px;
+        transition: all 0.5s;
+
+        &:hover{
+            color: $bud-green;
+        }
+    }
+
+    a{
+        color: $soft-blue;
+        font-size: 30px;
+        text-decoration: none;
+    }
+}
+
+.PI-tech-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+
+    h4{
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: $bud-green ;
+        opacity: 75%;
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
     }
 }

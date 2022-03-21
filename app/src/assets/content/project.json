@@ -4,26 +4,51 @@
             "title" : "Standup-lyon.fr",
             "description" : "I have created a full standup-comedy information plateform (backend and frontend). With a user system and secured jwt conection provider",
             "gitLink":"https://github.com/LucasSovre/siteStandup_homadeBackend",
-            "Link":"https://standup-lyon.fr/",
+            "link":"https://standup-lyon.fr/",
+            "tech" : ["ReactJS", "HTML", "CSS", "Django", "Python", "Nginx", "project"],
+            "img" : "standup-lyon_screenShot.png"
+            },
+            {
+            "title" : "Radio website beguin",
+            "description" : "I have created a web radio website which include CMS content. The radioStream is provided by RadioKing and the CMS is provided by a django backend. the website also implement podcast player via the soundCloud API. The design have been made by an independent designer and i have implemented it in pure scss. ",
+            "gitLink":"https://github.com/LucasSovre/frontend-radio-beguin",
+            "link":"",
+            "tech" : ["ReactJS", "HTML", "CSS", "Django", "Python", "Nginx"],
+            "img" : "radio-beguin.jpg"
+            },
+            {
+            "title" : "Scrapper web FFR",
+            "description" : "I have worked for en entertainment streamer / youtuber who need all the french federation mail adress. The main techno used is puppetter from node. ",
+            "gitLink":"https://github.com/LucasSovre/scrap-rugbyClub",
+            "link":"",
+            "tech" : ["javaScript", "Node", "Puppetteer"],
+            "img" : "ffrScarp.png"
+            }
+        ],
+    "fr" : [
+        {
+            "title" : "Standup-lyon.fr",
+            "description" : "J'ai créé une plateforme d'information complète sur le stand-up (backend et frontend). Avec un système utilisateur et un fournisseur de connexion jwt sécurisé",
+            "gitLink":"https://github.com/LucasSovre/siteStandup_homadeBackend",
+            "link":"https://standup-lyon.fr/",
             "tech" : ["ReactJS", "HTML", "CSS", "Django", "Python", "Nginx", "project"],
             "img" : "standup-lyon_screenShot.png"
             },
             {
             "title" : "Site web radio beguin",
-            "description" : "lorem ipsum",
-            "gitLink":"",
-            "Link":"",
-            "tech" : [],
-            "img" : "placeholder.png"
+            "description" : "J'ai créé un site Web de radio qui inclut du contenu CMS. Le radioStream est fourni par RadioKing et le CMS est fourni par un backend django. le site Web implémente également un lecteur de podcast via l'API soundCloud. Le design a été réalisé par un designer indépendant et je l'ai implémenté en pur scss.",
+            "gitLink":"https://github.com/LucasSovre/frontend-radio-beguin",
+            "link":"",
+            "tech" : ["ReactJS", "HTML", "CSS", "Django", "Python", "Nginx"],
+            "img" : "radio-beguin.jpg"
             },
             {
             "title" : "Scrapper web FFR",
-            "description" : "lorem ipsum",
-            "gitLink":"",
-            "Link":"",
-            "tech" : [],
-            "img" : "placeholder.png"
+            "description" : "J'ai travaillé avec un streameur  youtubeur de divertissement qui avait besoin pour une vidéo de toutes les adresses mails de la fédération francaise de rugby. J'ai donc crée un scapper puppetteer qui à scrapé la FFR.",
+            "gitLink":"https://github.com/LucasSovre/scrap-rugbyClub",
+            "link":"",
+            "tech" : ["javaScript", "Node", "Puppetteer"],
+            "img" : "ffrScarp.png"
             }
-        ],
-    "fr" : []
+    ]
 }
