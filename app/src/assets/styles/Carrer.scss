@@ -40,3 +40,26 @@
     }
 
 }
+
+@media (max-width: 1000px) {
+    
+    #CA-main{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px;
+        height: auto;
+    }
+
+    #CA-container{ 
+    
+        width: 100%;
+        background-size: cover;
+        background-image: url("../img/shapes-little.svg");
+        
+        img{
+            width: 30%;
+            background-color: transparent;
+        }
+    }
+
+}

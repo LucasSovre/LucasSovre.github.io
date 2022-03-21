@@ -1,6 +1,6 @@
 import react, {useEffect} from "react";
 import "../assets/styles/Header.scss"
-import {atom, useRecoilState, useRecoilValue} from "recoil"
+import {atom, useRecoilState} from "recoil"
 
 export const langageState = atom({
     key: 'langageState',

@@ -19,7 +19,6 @@ export default function Projects(){
           var windowHeight = window.innerHeight;
           var elementTop = reveals[i].getBoundingClientRect().top;
           if (elementTop < windowHeight -150 ) {
-            console.log(elementTop)
             reveals[i].classList.add("PI-main-animation");
             reveals[i].hidden = false
           }

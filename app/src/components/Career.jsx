@@ -18,7 +18,7 @@ export default function Career() {
     return(
         <div id="CA-main">
             {
-                langage === "en" ? <h2>I worked with :</h2> :
+                langage === "en" ? <h2>I have worked with :</h2> :
                 <h2>Les entreprises avec lesquelles j'ai travaillé:</h2>
             }
             <div id="CA-container">

@@ -44,3 +44,21 @@
 
     }
 }
+
+@media (max-width: 1000px) {
+
+    #CO-main{
+        flex-direction: column;
+        height: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+        a{
+            width: 100%;
+            margin-top: 40px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+    }
+
+}

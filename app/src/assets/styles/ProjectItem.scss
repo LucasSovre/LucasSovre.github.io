@@ -67,3 +67,47 @@
         border-radius: 5px;
     }
 }
+
+@media (max-width: 1000px) {
+
+    .PI-main{
+        padding-top: 15px;
+        padding-left: 2%;
+        padding-right: 2%;
+        flex-direction: column !important;
+        max-height: none;
+        margin: 0px;
+        width: 96%;
+        height: auto;
+        margin-bottom: 75px;
+
+        div{
+            display: flex;
+            flex-direction: column !important;
+            width: 100%;
+
+            p{
+                text-align: justify;
+                width: 100%;
+            }
+        }
+
+        img{
+            width: 75%;
+        }
+
+    }
+
+    .PI-tech-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    
+        h4{
+            margin-top: 3px;
+            margin-bottom: 3px;
+        }
+    }
+
+}

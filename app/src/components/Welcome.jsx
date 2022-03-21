@@ -3,8 +3,6 @@ import { langageStateGet } from "../assets/utils/recoilSelector";
 import { useRecoilValue } from "recoil";
 import fakeMe from "../assets/img/fakeMe.png"
 
-
-
 import "../assets/styles/Welcome.scss"
 
 export default function Welcome (){
@@ -12,7 +10,6 @@ export default function Welcome (){
     function disapear() {
         var reveals = document.querySelectorAll("#WL-main");
         for (var i = 0; i < reveals.length; i++) {
-          var windowHeight = window.innerHeight;
           var elementTop = reveals[i].getBoundingClientRect().top;
           console.log(elementTop)
           if (elementTop < -450) {

@@ -6,7 +6,7 @@
             "gitLink":"https://github.com/LucasSovre/siteStandup_homadeBackend",
             "link":"https://standup-lyon.fr/",
             "tech" : ["ReactJS", "HTML", "CSS", "Django", "Python", "Nginx", "project"],
-            "img" : "standup-lyon_screenShot.png"
+            "img" : "standup-lyon_screenShot.jpg"
             },
             {
             "title" : "Radio website beguin",
@@ -22,7 +22,7 @@
             "gitLink":"https://github.com/LucasSovre/scrap-rugbyClub",
             "link":"",
             "tech" : ["javaScript", "Node", "Puppetteer"],
-            "img" : "ffrScarp.png"
+            "img" : "ffrScarp.jpg"
             }
         ],
     "fr" : [
@@ -32,7 +32,7 @@
             "gitLink":"https://github.com/LucasSovre/siteStandup_homadeBackend",
             "link":"https://standup-lyon.fr/",
             "tech" : ["ReactJS", "HTML", "CSS", "Django", "Python", "Nginx", "project"],
-            "img" : "standup-lyon_screenShot.png"
+            "img" : "standup-lyon_screenShot.jpg"
             },
             {
             "title" : "Site web radio beguin",
@@ -48,7 +48,7 @@
             "gitLink":"https://github.com/LucasSovre/scrap-rugbyClub",
             "link":"",
             "tech" : ["javaScript", "Node", "Puppetteer"],
-            "img" : "ffrScarp.png"
+            "img" : "ffrScarp.jpg"
             }
     ]
 }

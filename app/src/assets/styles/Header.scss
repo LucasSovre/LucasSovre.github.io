@@ -101,3 +101,19 @@
         }
     }
 }
+
+@media (max-width: 1000px) {
+
+    #HD-main{
+        width: 90vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #HD-anchor{
+        display: none;
+    }
+
+}
