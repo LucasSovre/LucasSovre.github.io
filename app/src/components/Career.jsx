@@ -2,8 +2,6 @@ import react from "react";
 import { useRecoilValue } from "recoil";
 import { langageStateGet } from "../assets/utils/recoilSelector";
 
-import edf from "../assets/img/logo/edf.svg"
-import edf_black from "../assets/img/logo/edf_black.svg"
 import esiee_it_black from "../assets/img/logo/esiee_it_black.svg"
 import esiee_it from "../assets/img/logo/esiee-it.jpg"
 import radio_beguin from "../assets/img/logo/radio-beguin.svg"
@@ -22,10 +20,6 @@ export default function Career() {
                 <h2>Les entreprises avec lesquelles j'ai travaillé:</h2>
             }
             <div id="CA-container">
-                <img src={edf_black}
-                onMouseEnter={(e) =>{e.target.src = edf}}
-                onMouseLeave={(e) => {e.target.src = edf_black}}
-                alt="edf" />
                 <img src={esiee_it_black} 
                 onMouseEnter={(e) =>{e.target.src = esiee_it}}
                 onMouseLeave={(e) => {e.target.src = esiee_it_black}}
