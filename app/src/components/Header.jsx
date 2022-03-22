@@ -22,6 +22,26 @@ export default function Header (){
         }
     },[langage]);
 
+    function umamiTrackLanguageEn () {
+        umami.trackEvent('Click on en langage', "english button click");
+    }
+
+    function umamiTrackLanguageFr () {
+        umami.trackEvent('Click on fr langage', "french version click");
+    }
+
+    function umamiTrackAnchorProject () {
+        umami.trackEvent('Click on project anchor', "jump to project");
+    }
+
+    function umamiTrackAnchorCareer () {
+        umami.trackEvent('Click on career anchor', "jump to career");
+    }
+
+    function umamiTrackAnchorContact () {
+        umami.trackEvent('Click on contact anchor', "jump to contact");
+    }
+
     return(
         <div id="HD-main">
             <div id="HD-social">
@@ -37,21 +57,21 @@ export default function Header (){
                 </a>
             </div>
             <div id="HD-langue">
-                <button onClick={() => {setLangage("en")}} id="en">en</button>
-                <button onClick={() => {setLangage("fr")}} id="fr">fr</button>
+                <button onClick={() => {setLangage("en");umamiTrackLanguageEn()}} id="en">en</button>
+                <button onClick={() => {setLangage("fr");umamiTrackLanguageFr()}} id="fr">fr</button>
             </div>
             {
                 langage === "en" ?
                 <div id="HD-anchor">
-                    <a href="#project-anchor">Projects</a>
-                    <a href="#career-anchor">Career</a>
-                    <a href="#contact-anchor">Contact</a>
+                    <a href="#project-anchor" onClick={() => {umamiTrackAnchorProject()}}>Projects</a>
+                    <a href="#career-anchor" onClick={() => {umamiTrackAnchorCareer()}}>Career</a>
+                    <a href="#contact-anchor" onClick={() => {umamiTrackAnchorContact()}}>Contact</a>
                 </div>
                 :
                 <div id="HD-anchor">
-                    <a href="#project-anchor">Projets</a>
-                    <a href="#career-anchor">Carrière</a>
-                    <a href="#contact-anchor">Contact</a>
+                    <a href="#project-anchor" onClick={() => {umamiTrackAnchorProject()}}>Projets</a>
+                    <a href="#career-anchor" onClick={() => {umamiTrackAnchorCareer()}}>Carrière</a>
+                    <a href="#contact-anchor" onClick={() => {umamiTrackAnchorContact()}}>Contact</a>
                 </div>
             }
         </div>

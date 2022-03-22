@@ -11,7 +11,6 @@ export default function Welcome (){
         var reveals = document.querySelectorAll("#WL-main");
         for (var i = 0; i < reveals.length; i++) {
           var elementTop = reveals[i].getBoundingClientRect().top;
-          console.log(elementTop)
           if (elementTop < -450) {
             document.getElementById("HD-main").classList.add("HD-scrolled")
           }
@@ -20,6 +19,10 @@ export default function Welcome (){
           }
         }
       }
+
+    function umamiTrackMainContact () {
+        umami.trackEvent('Contact button welcome component click', 'contact main');
+    }
 
     useEffect(() => {
         disapear()
@@ -42,9 +45,9 @@ export default function Welcome (){
                     }
                     {
                         langage === "en" ? 
-                        <a>Contact</a>
+                        <a href="mailto:lucas.sovre@yahoo.com" onClick={() => {umamiTrackMainContact()}}>Contact</a>
                         :
-                        <a>Contactez moi</a>
+                        <a href="mailto:lucas.sovre@yahoo.com" onClick={() => {umamiTrackMainContact()}}>Contactez moi</a>
                     }
                 </div>
             </div>
