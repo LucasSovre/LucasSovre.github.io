@@ -1,16 +1,16 @@
+/** @format */
+
 import react from "react";
-import techno from "../assets/content/technology.json"
+import techno from "../assets/content/technology.json";
 import TechItem from "../components/TechItem";
-import "../assets/styles/Technology.scss"
+import "../assets/styles/Technology.scss";
 
-export default function Technology(){
-
-    return(
-        <div id="TE-main">
-            {techno.map((item) =>(
-                <TechItem item={item} key={item.name + "key"} />
-            ))}
-        </div>
-    )
-
+export default function Technology() {
+	return (
+		<div id="TE-main">
+			{techno.map((item) => (
+				<TechItem item={item} key={item.name + "key"} />
+			))}
+		</div>
+	);
 }
