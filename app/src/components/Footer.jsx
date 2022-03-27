@@ -14,8 +14,8 @@ export default function Footer() {
 		<div id="FO-main">
 			{langage === "en" ? (
 				<p>
-					<a href={cgu}>Legal Notice</a> | © 2022 Lucas Sovre | Thanks
-					to :{" "}
+					<a href={cgu}>Legal Notice 1.0</a> | © 2022 Lucas Sovre |
+					Thanks to :{" "}
 					<a href="https://gerardm111.github.io/mahaut-gerard/">
 						Mahaut Gerard
 					</a>{" "}
@@ -30,8 +30,8 @@ export default function Footer() {
 				</p>
 			) : (
 				<p>
-					<a href={cgu}>Mentions légales</a> | © 2022 Lucas Sovre |
-					Merci à :{" "}
+					<a href={cgu}>Mentions légales 1.0</a> | © 2022 Lucas Sovre
+					| Merci à :{" "}
 					<a href="https://gerardm111.github.io/mahaut-gerard/">
 						Mahaut Gerard
 					</a>{" "}
