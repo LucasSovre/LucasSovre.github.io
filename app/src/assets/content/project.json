@@ -17,6 +17,14 @@
             "img" : "radio-beguin.jpg"
             },
             {
+                "title" : "Javascript package react-umami",
+                "description" : "I have created a javascript package who permit to easly integrate umami analitycs (open-source self hosted analytics) to a reactJs website.",
+                "gitLink":"https://github.com/LucasSovre/react_umami",
+                "link":"https://www.npmjs.com/package/react-umami",
+                "tech" : ["javaScript", "Node", "npm", "umami"],
+                "img" : "react_umami.png"
+            },
+            {
             "title" : "Scrapper web FFR",
             "description" : "I have worked for en entertainment streamer / youtuber who need all the french federation mail adress. The main techno used is puppetter from node. ",
             "gitLink":"https://github.com/LucasSovre/scrap-rugbyClub",
@@ -41,6 +49,14 @@
             "link":"",
             "tech" : ["ReactJS", "HTML", "CSS", "Django", "Python", "Nginx"],
             "img" : "radio-beguin.jpg"
+            },
+            {
+                "title" : "Paquet javascript react-umami",
+                "description" : "J'ai créé un package javascript qui permet d'intégrer facilement umami analitycs (analyse open-source auto-hébergée) à un site Web reactJs.",
+                "gitLink":"https://github.com/LucasSovre/react_umami",
+                "link":"https://www.npmjs.com/package/react-umami",
+                "tech" : ["javaScript", "Node", "npm", "umami"],
+                "img" : "react_umami.png"
             },
             {
             "title" : "Scrapper web FFR",

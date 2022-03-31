@@ -16,8 +16,6 @@ export default function App (){
     umami.trackView('/');
   },[]);
 
-  
-
   return(
     <div>
       <Header />
