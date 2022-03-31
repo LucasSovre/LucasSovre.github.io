@@ -16,10 +16,6 @@ export default function App() {
 		umami.trackView("/");
 	}, []);
 
-	useEffect(() => {
-		umami.trackView("/");
-	}, []);
-
 	return (
 		<div>
 			<Header />
